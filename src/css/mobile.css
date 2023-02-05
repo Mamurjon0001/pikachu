@@ -1,3 +1,9 @@
+@media screen and (max-width:740px){
+    .headerimg{
+        display: none;
+    }
+}
+
 @media screen and (max-width:640px) {
     .title {
         font-size: 30px;

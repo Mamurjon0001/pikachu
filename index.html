@@ -10,18 +10,9 @@
     <title>Pokemon</title>
 </head>
 <body>
-    <header>
-        <div class="circles">
-            <div class="cicle-big">
-                <div class="circle-blue"></div>
-            </div>
-            <div class="circle-small">
-                <div class="circle-red"></div>
-                <div class="circle-yellow"></div>
-                <div class="circle-green"></div>
-            </div>
-        </div>
-        <h1 class="title">pokemon</h1>
+    <header style="background-color: #FFD845;">
+        
+        <img class="headerimg" src="./src/images/pikachuimg.png" alt="">
         <nav>
             <a href="index.html" class="home">
                 <figure>
@@ -41,7 +32,7 @@
             <input onkeyup="Render.Search(this.value)"type="text" id="search-poke">
             <div class="circle-search"></div>
         </div>
-            <ul class="list-tips">
+            <ul class="list-tips" >
                 <li onclick="Render.Category('')"   class="tips tips-all" >All</li>
                 <li onclick="Render.Category('grass')"   class="tips tips-grass" >grass</li>
                 <li onclick="Render.Category('fire')"    class="tips tips-fire" >fire</li>
@@ -62,7 +53,7 @@
                 <li onclick="Render.Category('steel')"   class="tips tips-steel" >steel</li>
                 <li onclick="Render.Category('flying')"   class="tips tips-flying">flying</li>
             </ul>
-        <section id="cards">
+        <section id="cards" style="background-color: #FFD845;">
         </section>
     </main>
 
